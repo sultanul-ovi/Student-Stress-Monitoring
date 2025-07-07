@@ -1,0 +1,30 @@
+
+STRESS LEVEL DATASET ANALYSIS SUMMARY
+=====================================
+
+Dataset Overview:
+- Total Records: 1100
+- Total Features: 21
+- No Missing Values: True
+- Duplicate Rows: 0
+
+Target Variable Distribution:
+{0: 373, 1: 358, 2: 369}
+
+Top 5 Features Correlated with Stress Level:
+{'bullying': 0.7511622514986331, 'future_career_concerns': 0.7426186047951918, 'anxiety_level': 0.7367954226953097, 'depression': 0.7343785737506857, 'headache': 0.7134840400213877}
+
+Feature Importance (Top 5 by Mutual Information):
+{'Feature': {5: 'blood_pressure', 6: 'sleep_quality', 15: 'future_career_concerns', 3: 'depression', 0: 'anxiety_level'}, 'MI Score': {5: 0.757232962367925, 6: 0.6785587155716852, 15: 0.6766490126543321, 3: 0.6630991331769209, 0: 0.6353115504646034}}
+
+Dimensionality Reduction:
+- Components for 95% variance: 16
+
+Outliers Detected:
+- Features with >5% outliers: 3
+
+Preprocessing Recommendations:
+1. Scaling: Recommended (StandardScaler/MinMaxScaler)
+2. Feature Selection: Start with top 20 features
+3. Handle multicollinearity if needed
+4. Consider ensemble methods for robustness
