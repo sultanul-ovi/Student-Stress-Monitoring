@@ -1,2 +1,5 @@
 ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
-Support Vector Machine,Normalized Data,89.818%,89.861%,89.821%,89.927%,97.736%
+AdaBoost,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+Gradient Boosting,SelectKBest,90.909%,90.913%,91.025%,91.100%,98.741%
+Random Forest,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
+Support Vector Machine,PCA,90.546%,90.557%,90.551%,90.567%,97.017%

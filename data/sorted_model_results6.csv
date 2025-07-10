@@ -1,6 +1,21 @@
 ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
-Support Vector Machine,Normalized Data,89.818%,89.861%,89.821%,89.927%,97.736%
-Support Vector Machine,Original Data,89.818%,89.824%,89.916%,90.009%,95.359%
-Support Vector Machine,PCA,87.273%,87.281%,87.275%,87.290%,96.980%
-Support Vector Machine,SelectKBest,86.909%,86.920%,86.952%,86.928%,96.669%
-Support Vector Machine,RFECV,86.909%,86.920%,86.952%,86.928%,96.705%
+Random Forest,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
+Random Forest,RFECV,92.364%,92.365%,92.356%,92.378%,97.960%
+AdaBoost,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+Random Forest,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
+AdaBoost,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+Gradient Boosting,SelectKBest,90.909%,90.913%,91.025%,91.100%,98.741%
+Support Vector Machine,PCA,90.546%,90.557%,90.551%,90.567%,97.017%
+Support Vector Machine,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
+Gradient Boosting,PCA,90.182%,90.210%,90.222%,90.454%,98.610%
+Gradient Boosting,RFECV,89.455%,89.480%,89.599%,89.876%,98.992%
+AdaBoost,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
+Support Vector Machine,SelectKBest,89.091%,89.133%,89.120%,89.189%,97.081%
+Support Vector Machine,RFECV,89.091%,89.133%,89.120%,89.189%,97.018%
+Gradient Boosting,Normalized Data,88.364%,88.371%,88.467%,88.405%,98.682%
+Random Forest,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
+Random Forest,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
+Gradient Boosting,Original Data,88.000%,88.002%,88.083%,88.069%,98.559%
+Support Vector Machine,Normalized Data,87.273%,87.277%,87.298%,87.309%,97.229%
+AdaBoost,Normalized Data,86.909%,86.911%,86.964%,86.913%,98.531%
