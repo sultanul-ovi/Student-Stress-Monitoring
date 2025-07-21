@@ -1,4 +1,0 @@
-ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
-Support Vector Machine 90,Original Data,90.182%,90.258%,90.328%,91.043%,98.945%
-Support Vector Machine 95,Original Data,90.182%,90.258%,90.328%,91.043%,98.953%
-Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.068%
