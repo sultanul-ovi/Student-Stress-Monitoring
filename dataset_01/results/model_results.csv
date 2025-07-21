@@ -29,3 +29,33 @@ Random Forest 99,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
 Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,RFECV,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
+Gradient Boosting 90,Original Data,87.636%,87.643%,87.737%,87.657%,98.540%
+Gradient Boosting 90,Normalized Data,87.636%,87.643%,87.737%,87.717%,98.478%
+Gradient Boosting 90,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.843%
+Gradient Boosting 90,RFECV,91.636%,91.645%,91.732%,91.790%,97.337%
+Gradient Boosting 90,PCA,92.000%,92.005%,92.083%,92.121%,97.684%
+Gradient Boosting 95,Original Data,89.091%,89.115%,89.164%,89.109%,98.576%
+Gradient Boosting 95,Normalized Data,89.091%,89.093%,89.175%,89.161%,98.550%
+Gradient Boosting 95,SelectKBest,90.546%,90.534%,90.702%,90.761%,98.984%
+Gradient Boosting 95,RFECV,92.000%,92.008%,92.022%,91.998%,97.142%
+Gradient Boosting 95,PCA,91.636%,91.643%,91.643%,91.643%,97.504%
+Gradient Boosting 99,Original Data,88.000%,88.008%,88.044%,88.014%,98.661%
+Gradient Boosting 99,Normalized Data,87.636%,87.662%,87.710%,87.754%,98.618%
+Gradient Boosting 99,SelectKBest,90.546%,90.552%,90.646%,90.694%,98.739%
+Gradient Boosting 99,RFECV,90.546%,90.551%,90.663%,90.718%,98.970%
+Gradient Boosting 99,PCA,90.546%,90.567%,90.600%,90.732%,98.778%
+AdaBoost 90,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 90,Normalized Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 90,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 90,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 90,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+AdaBoost 95,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 95,Normalized Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+AdaBoost 99,Original Data,87.273%,87.270%,87.326%,87.279%,98.530%
+AdaBoost 99,Normalized Data,87.273%,87.270%,87.326%,87.279%,98.517%
+AdaBoost 99,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 99,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 99,PCA,91.636%,91.644%,91.776%,92.104%,96.858%

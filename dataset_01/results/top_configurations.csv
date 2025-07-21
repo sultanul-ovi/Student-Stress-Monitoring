@@ -1,4 +1,10 @@
 ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+AdaBoost 90,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 99,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+Gradient Boosting 90,PCA,92.000%,92.005%,92.083%,92.121%,97.684%
+Gradient Boosting 95,RFECV,92.000%,92.008%,92.022%,91.998%,97.142%
+Gradient Boosting 99,PCA,90.546%,90.567%,90.600%,90.732%,98.778%
 Random Forest 90,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 95,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%

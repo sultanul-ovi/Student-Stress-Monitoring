@@ -5,20 +5,44 @@ Random Forest 95,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 95,RFECV,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,RFECV,92.364%,92.365%,92.356%,92.378%,97.960%
+Gradient Boosting 95,RFECV,92.000%,92.008%,92.022%,91.998%,97.142%
+Gradient Boosting 90,PCA,92.000%,92.005%,92.083%,92.121%,97.684%
+AdaBoost 90,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 90,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 99,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 99,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+Gradient Boosting 90,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.843%
 Random Forest 95,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
 Random Forest 99,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
 Random Forest 90,PCA,91.636%,91.651%,91.687%,91.730%,98.316%
+Gradient Boosting 90,RFECV,91.636%,91.645%,91.732%,91.790%,97.337%
+AdaBoost 90,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+AdaBoost 95,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+AdaBoost 99,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
+Gradient Boosting 95,PCA,91.636%,91.643%,91.643%,91.643%,97.504%
+Gradient Boosting 99,PCA,90.546%,90.567%,90.600%,90.732%,98.778%
 Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.040%
+Gradient Boosting 99,SelectKBest,90.546%,90.552%,90.646%,90.694%,98.739%
+Gradient Boosting 99,RFECV,90.546%,90.551%,90.663%,90.718%,98.970%
+Gradient Boosting 95,SelectKBest,90.546%,90.534%,90.702%,90.761%,98.984%
 Support Vector Machine 95,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 90,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 99,Original Data,90.182%,90.258%,90.328%,91.043%,98.953%
 Support Vector Machine 90,PCA,90.182%,90.247%,90.250%,90.781%,94.319%
+AdaBoost 90,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 90,Normalized Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 95,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
+AdaBoost 95,Normalized Data,89.091%,89.210%,89.230%,90.279%,98.660%
 Support Vector Machine 95,SelectKBest,89.091%,89.133%,89.120%,89.189%,96.961%
 Support Vector Machine 95,RFECV,89.091%,89.133%,89.120%,89.189%,96.924%
 Support Vector Machine 90,SelectKBest,89.091%,89.133%,89.120%,89.189%,97.059%
 Support Vector Machine 90,RFECV,89.091%,89.133%,89.120%,89.189%,97.022%
 Support Vector Machine 99,SelectKBest,89.091%,89.133%,89.120%,89.189%,97.037%
 Support Vector Machine 99,RFECV,89.091%,89.133%,89.120%,89.189%,96.952%
+Gradient Boosting 95,Original Data,89.091%,89.115%,89.164%,89.109%,98.576%
+Gradient Boosting 95,Normalized Data,89.091%,89.093%,89.175%,89.161%,98.550%
 Support Vector Machine 95,PCA,88.727%,88.773%,88.762%,88.852%,97.916%
 Random Forest 90,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
 Random Forest 95,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
@@ -26,6 +50,12 @@ Random Forest 99,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
 Random Forest 90,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
 Random Forest 95,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
 Random Forest 99,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
+Gradient Boosting 99,Original Data,88.000%,88.008%,88.044%,88.014%,98.661%
+Gradient Boosting 99,Normalized Data,87.636%,87.662%,87.710%,87.754%,98.618%
+Gradient Boosting 90,Original Data,87.636%,87.643%,87.737%,87.657%,98.540%
+Gradient Boosting 90,Normalized Data,87.636%,87.643%,87.737%,87.717%,98.478%
 Support Vector Machine 95,Normalized Data,87.273%,87.277%,87.298%,87.309%,97.321%
 Support Vector Machine 90,Normalized Data,87.273%,87.277%,87.298%,87.309%,97.305%
 Support Vector Machine 99,Normalized Data,87.273%,87.277%,87.298%,87.309%,97.307%
+AdaBoost 99,Original Data,87.273%,87.270%,87.326%,87.279%,98.530%
+AdaBoost 99,Normalized Data,87.273%,87.270%,87.326%,87.279%,98.517%
