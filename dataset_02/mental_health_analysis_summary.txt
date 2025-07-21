@@ -1,0 +1,70 @@
+
+MENTAL HEALTH WEARABLE IOT SENSORS - ANALYSIS SUMMARY
+===================================================
+
+Dataset Overview:
+- Total Records: 500
+- Total Features: 32
+- Unique Students: 100
+- Sensors Used: EEG (4 bands), GSR
+
+Target Variable:
+- Column Name: Target
+- Distribution: {0: 251, 1: 249}
+- Class Imbalance Ratio: 1.01:1
+
+EEG Analysis:
+- Available Bands: delta, theta, alpha, beta
+- Band Ratios Created: Duration (minutes), theta_beta_ratio, alpha_beta_ratio, theta_alpha_ratio
+- Relative Powers: Calculated
+
+GSR Analysis:
+- GSR Columns Found: GSR_Values
+- Primary GSR Mean: 1.02 (±0.57)
+- Temporal Features: Created
+
+Cognitive-Emotional States:
+- Cognitive State Column: Cognitive_State
+- Emotional State Column: Emotional_State
+
+Session Context:
+- Session Type Column: Session_Type
+- Duration Column: Duration (minutes)
+- Environment Column: Environmental_Context
+
+Feature Importance:
+- Total Features Analyzed: 28
+- Top Features Available: Yes
+
+Statistical Insights:
+- Significant Features (p<0.05): 2
+- PCA Components for 90% variance: 15
+- PCA Components for 95% variance: 16
+
+Key Recommendations:
+1. Extract EEG bands from string format if needed
+2. Create band ratio features for mental state detection
+3. Handle categorical variables with appropriate encoding
+4. Use subject-wise data splitting to avoid leakage
+5. Consider ensemble methods for robustness
+6. Apply proper signal preprocessing for EEG data
+7. Handle class imbalance with appropriate techniques
+
+Files Generated:
+- eeg_band_distributions.png (if EEG bands available)
+- gsr_analysis.png (if GSR data available)
+- state_combinations_heatmap.png (if state columns available)
+- stress_distribution.png (if target column available)
+- session_context_analysis.png (if session data available)
+- correlation_matrix.png
+- stress_correlations.png (if target column available)
+- multivariate_analysis.png (if required features available)
+- outlier_percentages.png
+- feature_importance_analysis.png (if target column available)
+- pca_analysis.png (if target column available)
+- mental_health_analysis_summary.txt
+
+Note: Some visualizations may not be generated if required columns are not found in the dataset.
+Check console output for details on which columns were identified.
+
+Ready for advanced ML modeling with physiological signal processing!
