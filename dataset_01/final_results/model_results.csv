@@ -1,0 +1,36 @@
+ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+Support Vector Machine 99,Original Data,32.000%,16.162%,33.333%,10.667%,37.520%
+Support Vector Machine 99,Normalized Data,89.091%,89.108%,89.180%,89.250%,95.779%
+Support Vector Machine 99,SelectKBest,89.455%,89.477%,89.559%,89.663%,95.200%
+Support Vector Machine 99,RFECV,89.455%,89.477%,89.559%,89.663%,95.144%
+Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.025%
+Random Forest 99,Original Data,88.727%,88.740%,88.729%,88.799%,98.666%
+Random Forest 99,Normalized Data,89.091%,89.098%,89.080%,89.159%,98.648%
+Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
+Random Forest 99,RFECV,92.364%,92.365%,92.356%,92.378%,97.960%
+Random Forest 99,PCA,92.364%,92.356%,92.356%,92.356%,98.183%
+Gradient Boosting 90,Original Data,88.364%,88.401%,88.423%,88.413%,98.639%
+Gradient Boosting 90,Normalized Data,88.364%,88.390%,88.423%,88.382%,98.642%
+Gradient Boosting 90,SelectKBest,89.818%,89.815%,89.961%,90.031%,98.996%
+Gradient Boosting 90,RFECV,91.273%,91.279%,91.404%,91.498%,99.017%
+Gradient Boosting 90,PCA,89.455%,89.444%,89.448%,89.519%,98.526%
+AdaBoost 95,Original Data,87.636%,87.640%,87.677%,87.627%,98.583%
+AdaBoost 95,Normalized Data,88.364%,88.356%,88.418%,88.393%,98.567%
+AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+AdaBoost 95,PCA,92.000%,92.005%,92.083%,92.121%,96.924%
+XGBoost 90,Original Data,88.000%,87.996%,88.016%,88.043%,98.587%
+XGBoost 90,Normalized Data,88.000%,87.996%,88.016%,88.043%,98.587%
+XGBoost 90,SelectKBest,91.636%,91.636%,91.776%,92.014%,97.820%
+XGBoost 90,RFECV,91.636%,91.636%,91.776%,92.014%,97.820%
+XGBoost 90,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+LightGBM 99,Original Data,90.182%,90.172%,90.307%,90.265%,98.719%
+LightGBM 99,Normalized Data,90.182%,90.172%,90.307%,90.265%,98.719%
+LightGBM 99,SelectKBest,92.000%,91.999%,92.094%,92.082%,97.350%
+LightGBM 99,RFECV,92.000%,91.999%,92.094%,92.082%,97.350%
+LightGBM 99,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+Bagging 99,Original Data,88.364%,88.399%,88.451%,88.488%,98.692%
+Bagging 99,Normalized Data,88.000%,88.023%,88.033%,88.060%,98.566%
+Bagging 99,SelectKBest,91.273%,91.265%,91.287%,91.253%,98.513%
+Bagging 99,RFECV,92.000%,92.002%,92.111%,92.221%,97.648%
+Bagging 99,PCA,92.000%,92.002%,92.111%,92.221%,97.762%
