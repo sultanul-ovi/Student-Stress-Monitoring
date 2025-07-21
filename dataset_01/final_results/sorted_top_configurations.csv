@@ -1,0 +1,9 @@
+ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
+AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+LightGBM 99,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+Bagging 99,PCA,91.636%,91.624%,91.742%,92.194%,97.521%
+Gradient Boosting 90,PCA,91.636%,91.643%,91.760%,91.910%,97.097%
+XGBoost 90,SelectKBest,91.636%,91.636%,91.776%,92.014%,97.820%
+Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.059%
+Gradient Boosting 95,RFECV,90.182%,90.206%,90.284%,90.536%,98.889%
