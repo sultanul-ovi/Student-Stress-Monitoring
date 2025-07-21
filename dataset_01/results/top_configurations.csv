@@ -2,12 +2,21 @@ ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
 AdaBoost 90,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
 AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
 AdaBoost 99,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
+Bagging 90,PCA,92.000%,92.002%,92.111%,92.221%,97.596%
+Bagging 95,PCA,91.636%,91.632%,91.737%,91.909%,97.916%
+Bagging 99,PCA,92.000%,92.002%,92.111%,92.221%,98.033%
 Gradient Boosting 90,PCA,92.000%,92.005%,92.083%,92.121%,97.684%
 Gradient Boosting 95,RFECV,92.000%,92.008%,92.022%,91.998%,97.142%
 Gradient Boosting 99,PCA,90.546%,90.567%,90.600%,90.732%,98.778%
+LightGBM 90,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+LightGBM 95,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+LightGBM 99,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
 Random Forest 90,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 95,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Random Forest 99,SelectKBest,92.364%,92.365%,92.356%,92.378%,97.960%
 Support Vector Machine 90,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 95,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.040%
+XGBoost 90,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+XGBoost 95,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+XGBoost 99,PCA,91.636%,91.636%,91.776%,92.014%,97.621%

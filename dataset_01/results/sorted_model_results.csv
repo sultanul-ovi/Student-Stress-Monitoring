@@ -13,7 +13,19 @@ AdaBoost 95,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
 AdaBoost 95,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
 AdaBoost 99,SelectKBest,92.000%,92.005%,92.083%,92.121%,96.794%
 AdaBoost 99,RFECV,92.000%,92.005%,92.083%,92.121%,96.794%
+LightGBM 90,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+LightGBM 95,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
+LightGBM 99,PCA,92.000%,92.005%,92.083%,92.121%,97.426%
 Gradient Boosting 90,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.843%
+LightGBM 90,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.683%
+LightGBM 90,RFECV,92.000%,92.002%,92.111%,92.221%,97.683%
+LightGBM 95,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.683%
+LightGBM 95,RFECV,92.000%,92.002%,92.111%,92.221%,97.683%
+LightGBM 99,SelectKBest,92.000%,92.002%,92.111%,92.221%,97.683%
+LightGBM 99,RFECV,92.000%,92.002%,92.111%,92.221%,97.683%
+Bagging 90,PCA,92.000%,92.002%,92.111%,92.221%,97.596%
+Bagging 99,PCA,92.000%,92.002%,92.111%,92.221%,98.033%
+Bagging 90,SelectKBest,92.000%,92.001%,92.105%,92.078%,96.369%
 Random Forest 95,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
 Random Forest 99,PCA,92.000%,91.988%,92.010%,92.027%,98.320%
 Random Forest 90,PCA,91.636%,91.651%,91.687%,91.730%,98.316%
@@ -22,6 +34,21 @@ AdaBoost 90,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
 AdaBoost 95,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
 AdaBoost 99,PCA,91.636%,91.644%,91.776%,92.104%,96.858%
 Gradient Boosting 95,PCA,91.636%,91.643%,91.643%,91.643%,97.504%
+XGBoost 90,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+XGBoost 95,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+XGBoost 99,PCA,91.636%,91.636%,91.776%,92.014%,97.621%
+XGBoost 90,SelectKBest,91.636%,91.634%,91.748%,91.856%,97.932%
+XGBoost 90,RFECV,91.636%,91.634%,91.748%,91.856%,97.932%
+XGBoost 95,SelectKBest,91.636%,91.634%,91.748%,91.856%,97.932%
+XGBoost 95,RFECV,91.636%,91.634%,91.748%,91.856%,97.932%
+XGBoost 99,SelectKBest,91.636%,91.634%,91.748%,91.856%,97.932%
+XGBoost 99,RFECV,91.636%,91.634%,91.748%,91.856%,97.932%
+Bagging 95,PCA,91.636%,91.632%,91.737%,91.909%,97.916%
+Bagging 90,RFECV,91.273%,91.288%,91.348%,91.364%,96.352%
+Bagging 95,SelectKBest,91.273%,91.288%,91.348%,91.364%,96.248%
+Bagging 95,RFECV,91.273%,91.288%,91.348%,91.364%,96.373%
+Bagging 99,SelectKBest,91.273%,91.288%,91.348%,91.364%,96.534%
+Bagging 99,RFECV,91.273%,91.288%,91.348%,91.364%,96.285%
 Gradient Boosting 99,PCA,90.546%,90.567%,90.600%,90.732%,98.778%
 Support Vector Machine 99,PCA,90.546%,90.557%,90.551%,90.567%,97.040%
 Gradient Boosting 99,SelectKBest,90.546%,90.552%,90.646%,90.694%,98.739%
@@ -31,6 +58,14 @@ Support Vector Machine 95,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 90,Original Data,90.182%,90.258%,90.328%,91.043%,98.951%
 Support Vector Machine 99,Original Data,90.182%,90.258%,90.328%,91.043%,98.953%
 Support Vector Machine 90,PCA,90.182%,90.247%,90.250%,90.781%,94.319%
+Bagging 99,Normalized Data,89.818%,89.863%,89.871%,89.994%,98.753%
+LightGBM 90,Original Data,89.818%,89.810%,89.961%,90.016%,98.620%
+LightGBM 90,Normalized Data,89.818%,89.810%,89.961%,90.016%,98.620%
+LightGBM 95,Original Data,89.818%,89.810%,89.961%,90.016%,98.620%
+LightGBM 95,Normalized Data,89.818%,89.810%,89.961%,90.016%,98.620%
+LightGBM 99,Original Data,89.818%,89.810%,89.961%,90.016%,98.620%
+LightGBM 99,Normalized Data,89.818%,89.810%,89.961%,90.016%,98.620%
+Bagging 95,Original Data,89.455%,89.470%,89.536%,89.642%,98.804%
 AdaBoost 90,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
 AdaBoost 90,Normalized Data,89.091%,89.210%,89.230%,90.279%,98.660%
 AdaBoost 95,Original Data,89.091%,89.210%,89.230%,90.279%,98.660%
@@ -44,6 +79,9 @@ Support Vector Machine 99,RFECV,89.091%,89.133%,89.120%,89.189%,96.952%
 Gradient Boosting 95,Original Data,89.091%,89.115%,89.164%,89.109%,98.576%
 Gradient Boosting 95,Normalized Data,89.091%,89.093%,89.175%,89.161%,98.550%
 Support Vector Machine 95,PCA,88.727%,88.773%,88.762%,88.852%,97.916%
+Bagging 90,Normalized Data,88.727%,88.763%,88.802%,88.911%,98.734%
+Bagging 99,Original Data,88.727%,88.735%,88.795%,89.004%,98.785%
+Bagging 90,Original Data,88.364%,88.414%,88.428%,88.595%,98.709%
 Random Forest 90,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
 Random Forest 95,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
 Random Forest 99,Original Data,88.364%,88.370%,88.395%,88.474%,98.697%
@@ -52,6 +90,13 @@ Random Forest 95,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
 Random Forest 99,Normalized Data,88.000%,88.014%,88.044%,88.149%,98.701%
 Gradient Boosting 99,Original Data,88.000%,88.008%,88.044%,88.014%,98.661%
 Gradient Boosting 99,Normalized Data,87.636%,87.662%,87.710%,87.754%,98.618%
+Bagging 95,Normalized Data,87.636%,87.659%,87.659%,87.839%,98.542%
+XGBoost 90,Original Data,87.636%,87.653%,87.705%,87.633%,98.617%
+XGBoost 90,Normalized Data,87.636%,87.653%,87.705%,87.633%,98.617%
+XGBoost 95,Original Data,87.636%,87.653%,87.705%,87.633%,98.617%
+XGBoost 95,Normalized Data,87.636%,87.653%,87.705%,87.633%,98.617%
+XGBoost 99,Original Data,87.636%,87.653%,87.705%,87.633%,98.617%
+XGBoost 99,Normalized Data,87.636%,87.653%,87.705%,87.633%,98.617%
 Gradient Boosting 90,Original Data,87.636%,87.643%,87.737%,87.657%,98.540%
 Gradient Boosting 90,Normalized Data,87.636%,87.643%,87.737%,87.717%,98.478%
 Support Vector Machine 95,Normalized Data,87.273%,87.277%,87.298%,87.309%,97.321%
