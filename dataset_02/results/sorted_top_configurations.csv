@@ -1,7 +1,0 @@
-ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
-Random Forest 90,SelectKBest,59.200%,58.937%,58.930%,58.952%,58.492%
-Random Forest 95,SelectKBest,59.200%,58.937%,58.930%,58.952%,58.492%
-Random Forest 99,SelectKBest,59.200%,58.937%,58.930%,58.952%,58.492%
-Support Vector Machine 90,PCA,56.800%,56.797%,57.038%,57.024%,56.807%
-Support Vector Machine 95,Normalized Data,56.000%,55.898%,55.944%,55.917%,56.137%
-Support Vector Machine 99,Normalized Data,56.000%,55.898%,55.944%,55.917%,55.661%
