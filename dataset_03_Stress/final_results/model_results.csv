@@ -1,0 +1,31 @@
+ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+Support Vector Machine 90,Original Data,90.995%,31.762%,33.333%,30.332%,48.644%
+Support Vector Machine 90,Normalized Data,97.156%,88.738%,89.252%,89.479%,99.384%
+Support Vector Machine 90,SelectKBest,97.156%,88.738%,89.252%,89.479%,99.338%
+Support Vector Machine 90,RFECV,97.156%,88.738%,89.252%,89.479%,99.384%
+Support Vector Machine 90,PCA,99.052%,96.494%,93.939%,99.656%,100.000%
+Random Forest 95,Original Data,93.365%,59.939%,53.030%,97.735%,98.273%
+Random Forest 95,Normalized Data,93.365%,59.939%,53.030%,97.735%,98.292%
+Random Forest 95,SelectKBest,94.787%,72.332%,63.258%,98.194%,96.243%
+Random Forest 95,RFECV,94.787%,72.332%,63.258%,98.194%,96.243%
+Random Forest 95,PCA,94.313%,68.283%,57.954%,98.039%,95.776%
+Gradient Boosting 90,Original Data,96.209%,81.824%,72.349%,98.667%,98.917%
+Gradient Boosting 90,Normalized Data,96.683%,84.837%,76.515%,98.828%,99.068%
+Gradient Boosting 90,SelectKBest,95.735%,80.066%,73.311%,93.898%,94.845%
+Gradient Boosting 90,RFECV,95.261%,76.927%,70.281%,93.738%,95.387%
+Gradient Boosting 90,PCA,93.365%,59.939%,53.030%,97.735%,94.579%
+AdaBoost 99,Original Data,96.683%,85.866%,79.372%,94.818%,98.947%
+AdaBoost 99,Normalized Data,95.735%,79.044%,69.318%,98.508%,98.454%
+AdaBoost 99,SelectKBest,96.683%,85.866%,79.372%,94.818%,98.947%
+AdaBoost 99,RFECV,93.365%,70.045%,65.593%,77.682%,94.026%
+AdaBoost 99,PCA,95.261%,78.753%,73.138%,88.336%,96.273%
+XGBoost 95,Original Data,95.261%,75.543%,65.151%,98.350%,98.604%
+XGBoost 95,Normalized Data,95.261%,75.543%,65.151%,98.350%,98.604%
+XGBoost 95,SelectKBest,96.209%,82.058%,73.485%,98.667%,95.521%
+XGBoost 95,RFECV,96.209%,82.058%,73.485%,98.667%,95.521%
+XGBoost 95,PCA,94.787%,72.332%,63.258%,98.194%,97.110%
+Bagging 99,Original Data,91.469%,39.248%,37.500%,63.809%,92.485%
+Bagging 99,Normalized Data,93.365%,59.939%,53.030%,97.735%,94.246%
+Bagging 99,SelectKBest,94.313%,68.831%,59.091%,98.039%,82.087%
+Bagging 99,RFECV,87.204%,34.747%,35.938%,33.682%,71.512%
+Bagging 99,PCA,87.204%,34.747%,35.938%,33.682%,70.060%
