@@ -56,7 +56,7 @@ Collected via Google Forms, this dataset captures emotional, academic, and healt
 
 | ML Model                          | Configuration       | Accuracy | F1 Score | Recall  | Precision |
 | --------------------------------- | ------------------- | -------- | -------- | ------- | --------- |
-| Stacking Classifier               | Mixed Preprocessing | 99.530%  | 97.950%  | 99.830% | 96.300%%  |
+| Stacking Classifier               | Mixed Preprocessing | 99.530%  | 97.950%  | 99.830% | 96.300%   |
 | Support Vector Machine            | PCA                 | 99.052%  | 96.494%  | 93.939% | 99.656%   |
 | Voting Classifier (weighted_hard) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939% | 99.656%   |
 | Voting Classifier (weighted_soft) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939% | 99.656%   |
