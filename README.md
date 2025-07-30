@@ -54,18 +54,18 @@ Collected via Google Forms, this dataset captures emotional, academic, and healt
 
 ### Dataset 02: Stress and Well-being Data
 
-| ML Model                          | Configuration       | Accuracy | F1 Score | Recall   | Precision |
-| --------------------------------- | ------------------- | -------- | -------- | -------- | --------- |
-| Stacking Classifier               | Mixed Preprocessing | 100.000% | 100.000% | 100.000% | 100.000%  |
-| Support Vector Machine            | PCA                 | 99.052%  | 96.494%  | 93.939%  | 99.656%   |
-| Voting Classifier (weighted_hard) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939%  | 99.656%   |
-| Voting Classifier (weighted_soft) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939%  | 99.656%   |
-| Voting Classifier (soft)          | Mixed Preprocessing | 97.630%  | 89.942%  | 83.712%  | 99.154%   |
-| Voting Classifier (hard)          | Mixed Preprocessing | 97.156%  | 87.318%  | 79.546%  | 98.990%   |
-| AdaBoost                          | Original Data       | 96.683%  | 85.866%  | 79.372%  | 94.818%   |
-| XGBoost                           | SelectKBest         | 96.209%  | 82.058%  | 73.485%  | 98.667%   |
-| Gradient Boosting                 | Normalized Data     | 95.735%  | 79.044%  | 69.318%  | 98.508%   |
-| Random Forest                     | SelectKBest         | 94.787%  | 72.332%  | 63.258%  | 98.194%   |
-| Bagging                           | SelectKBest         | 94.313%  | 68.831%  | 59.091%  | 98.039%   |
+| ML Model                          | Configuration       | Accuracy | F1 Score | Recall  | Precision |
+| --------------------------------- | ------------------- | -------- | -------- | ------- | --------- |
+| Stacking Classifier               | Mixed Preprocessing | 99.530%  | 97.950%  | 99.830% | 96.300%%  |
+| Support Vector Machine            | PCA                 | 99.052%  | 96.494%  | 93.939% | 99.656%   |
+| Voting Classifier (weighted_hard) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939% | 99.656%   |
+| Voting Classifier (weighted_soft) | Mixed Preprocessing | 99.052%  | 96.494%  | 93.939% | 99.656%   |
+| Voting Classifier (soft)          | Mixed Preprocessing | 97.630%  | 89.942%  | 83.712% | 99.154%   |
+| Voting Classifier (hard)          | Mixed Preprocessing | 97.156%  | 87.318%  | 79.546% | 98.990%   |
+| AdaBoost                          | Original Data       | 96.683%  | 85.866%  | 79.372% | 94.818%   |
+| XGBoost                           | SelectKBest         | 96.209%  | 82.058%  | 73.485% | 98.667%   |
+| Gradient Boosting                 | Normalized Data     | 95.735%  | 79.044%  | 69.318% | 98.508%   |
+| Random Forest                     | SelectKBest         | 94.787%  | 72.332%  | 63.258% | 98.194%   |
+| Bagging                           | SelectKBest         | 94.313%  | 68.831%  | 59.091% | 98.039%   |
 
 ---
