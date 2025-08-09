@@ -13,7 +13,7 @@ Student mental health is an increasing concern in academic institutions, where s
 _Submitted to a Conference_
 
 **PDF**  
-[ArXiv]([https://ieeexplore.ieee.org/abstract/document/10951075](https://arxiv.org/abs/2508.01105))
+[ArXiv](https://arxiv.org/abs/2508.01105)
 
 **BibTeX**
 
