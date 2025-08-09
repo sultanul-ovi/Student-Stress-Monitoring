@@ -1,12 +1,43 @@
-# Student Stress Monitoring
+## 📄 Paper
 
-**Paper Title:** Protecting Student Mental Health with a Context-Aware Machine Learning Framework for Stress Monitoring
+**Title**  
+**Protecting Student Mental Health with a Context-Aware Machine Learning Framework for Stress Monitoring**
 
-This repository contains the implementation, preprocessing, and ML pipelines used to analyze and predict student stress levels using publicly available survey datasets.
+**Authors**  
+Md Sultanul Islam Ovi, Jamal Hossain, Md Raihan Alam Rahi, Fatema Akter
+
+**Abstract**  
+Student mental health is an increasing concern in academic institutions, where stress can severely impact well-being and academic performance. Traditional assessment methods rely on subjective surveys and periodic evaluations, offering limited value for timely intervention. This paper introduces a context-aware machine learning framework for classifying student stress using two complementary survey-based datasets covering psychological, academic, environmental, and social factors. The framework follows a six-stage pipeline involving preprocessing, feature selection (SelectKBest, RFECV), dimensionality reduction (PCA), and training with six base classifiers: SVM, Random Forest, Gradient Boosting, XGBoost, AdaBoost, and Bagging. To enhance performance, we implement ensemble strategies, including hard voting, soft voting, weighted voting, and stacking. Our best models achieve 93.09% accuracy with weighted hard voting on the Student Stress Factors dataset and 99.53% with stacking on the Stress and Well-being dataset, surpassing previous benchmarks. These results highlight the potential of context-integrated, data-driven systems for early stress detection and underscore their applicability in real-world academic settings to support student well-being.
+
+**Conference**  
+_Submitted to a Conference_
+
+**PDF**  
+[ArXiv]([https://ieeexplore.ieee.org/abstract/document/10951075](https://arxiv.org/abs/2508.01105))
+
+**BibTeX**
+
+```bibtex
+@article{ovi2025protecting,
+  title={Protecting Student Mental Health with a Context-Aware Machine Learning Framework for Stress Monitoring},
+  author={Ovi, Md Sultanul Islam and Hossain, Jamal and Rahi, Md Raihan Alam and Akter, Fatema},
+  journal={arXiv preprint arXiv:2508.01105},
+  year={2025}
+}
+```
+
+---
+
+## 🔗 Resources
+
+### Datasets
+
+- [Mental Health Data Set](https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets)
+
 
 ## 📁 Datasets Used
 
-### Dataset 01: [Student Stress Factors: A Comprehensive Analysis](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis/data)
+### Dataset 01:
 
 - **File:** stressLevelDataset.csv
 - **Rows:** 1100
@@ -14,19 +45,17 @@ This repository contains the implementation, preprocessing, and ML pipelines use
 - **Missing Values:** No
 - **Duplicates:** None
 - **Target:** stress_level (3 classes)
-
 This dataset includes psychological, physiological, academic, social, and environmental stress factors reported by students in a nationwide survey.
-
 ---
 
-### Dataset 02: [Stress and Well-being Data of College Students](https://www.kaggle.com/datasets/ashutoshsingh22102/stress-and-well-being-data-of-college-students)
+### Dataset 02:
 
 - **File:** Stress Dataset.csv
 - **Rows:** 843
 - **Columns:** 26
 - **Missing Values:** No
 - **Duplicates:** 27
-- **Target:** Type of stress (eustress or distress)
+- **Target:** Type of stress (eustress or distress or no stress)
 
 Collected via Google Forms, this dataset captures emotional, academic, and health-related stress indicators from college students aged 18–21.
 
