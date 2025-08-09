@@ -28,7 +28,7 @@ _Submitted to a Conference_
 
 #### Overview
 
-<img src="ml_models.png" alt="Dataset Overview" width="600"/>
+<img src="ml_models.png" alt="Dataset Overview" width="800"/>
 ---
 
 ## 🔗 Resources
@@ -102,5 +102,5 @@ Collected via Google Forms, this dataset captures emotional, academic, and healt
 
 ---
 
-<img src="images/dataset1_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="600"/>  
-<img src="images/dataset2_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="600"/>  
+<img src="images/dataset1_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="800"/>  
+<img src="images/dataset2_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="800"/>  
