@@ -101,3 +101,6 @@ Collected via Google Forms, this dataset captures emotional, academic, and healt
 | Bagging                           | SelectKBest         | 94.313%  | 68.831%  | 59.091% | 98.039%   |
 
 ---
+
+<img src="images/dataset1_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="600"/>  
+<img src="images/dataset2_accuracy_comparison.png" alt="Comparative Analysis - Dataset 1" width="600"/>  
